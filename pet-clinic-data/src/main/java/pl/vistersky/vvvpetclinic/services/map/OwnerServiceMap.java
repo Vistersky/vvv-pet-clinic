@@ -1,10 +1,12 @@
 package pl.vistersky.vvvpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import pl.vistersky.vvvpetclinic.model.Owner;
 import pl.vistersky.vvvpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

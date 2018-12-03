@@ -6,8 +6,6 @@ import pl.vistersky.vvvpetclinic.model.Owner;
 import pl.vistersky.vvvpetclinic.model.Vet;
 import pl.vistersky.vvvpetclinic.services.OwnerService;
 import pl.vistersky.vvvpetclinic.services.VetService;
-import pl.vistersky.vvvpetclinic.services.map.OwnerServiceMap;
-import pl.vistersky.vvvpetclinic.services.map.VetServiceMap;
 
 
 @Component
@@ -15,10 +13,10 @@ public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
     private final VetService vetService;
-
-    public DataLoader(){
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    
+    public DataLoader(OwnerService ownerService, VetService vetService){
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
