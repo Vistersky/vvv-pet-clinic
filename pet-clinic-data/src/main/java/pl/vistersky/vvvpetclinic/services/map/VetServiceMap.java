@@ -1,11 +1,11 @@
 package pl.vistersky.vvvpetclinic.services.map;
 
 import pl.vistersky.vvvpetclinic.model.Vet;
-import pl.vistersky.vvvpetclinic.services.CrudService;
+import pl.vistersky.vvvpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
