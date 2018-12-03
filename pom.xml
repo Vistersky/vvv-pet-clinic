@@ -27,13 +27,66 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <encoding>UTF-8</encoding>
+        <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
+        <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
+        <archetype.encoding>${encoding}</archetype.encoding>
     </properties>
+
+    <scm>
+        <connection>scm:git:git@github.com:Vistersky/vvv-pet-clinic.git</connection>
+        <developerConnection>scm:git:git@github.com:Vistersky/vvv-pet-clinic.git</developerConnection>
+        <url>https://github.com/Vistersky/vvv-pet-clinic.git</url>
+    </scm>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                            <mainClass>pl.vistersky.VersioningDemo</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <goals>install</goals>
+                    <preparationGoals>package</preparationGoals>
+                    <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
+                    <remoteTagging>false</remoteTagging>
+                </configuration>
             </plugin>
         </plugins>
     </build>
