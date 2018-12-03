@@ -1,5 +1,14 @@
-pl\vistersky\vvvpetclinic\model\PetType.class
-pl\vistersky\vvvpetclinic\model\Vet.class
 pl\vistersky\vvvpetclinic\model\Person.class
-pl\vistersky\vvvpetclinic\model\Owner.class
+pl\vistersky\vvvpetclinic\model\Vet.class
+pl\vistersky\vvvpetclinic\services\map\OwnerServiceMap.class
+pl\vistersky\vvvpetclinic\services\VetService.class
+pl\vistersky\vvvpetclinic\services\map\AbstractMapService.class
+pl\vistersky\vvvpetclinic\services\OwnerService.class
 pl\vistersky\vvvpetclinic\model\Pet.class
+pl\vistersky\vvvpetclinic\model\PetType.class
+pl\vistersky\vvvpetclinic\model\Owner.class
+pl\vistersky\vvvpetclinic\services\CrudService.class
+pl\vistersky\vvvpetclinic\services\PetService.class
+pl\vistersky\vvvpetclinic\model\BaseEntity.class
+pl\vistersky\vvvpetclinic\services\map\PetServiceMap.class
+pl\vistersky\vvvpetclinic\services\map\VetServiceMap.class

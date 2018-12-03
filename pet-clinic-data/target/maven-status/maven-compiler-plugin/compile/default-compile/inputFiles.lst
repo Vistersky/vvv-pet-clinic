@@ -1,5 +1,14 @@
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\model\BaseEntity.java
 C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\model\Vet.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\VetService.java
 C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\model\Pet.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\CrudService.java
 C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\model\Person.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\OwnerService.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\PetService.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\map\OwnerServiceMap.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\map\VetServiceMap.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\map\AbstractMapService.java
 C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\model\Owner.java
 C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\model\PetType.java
+C:\Users\Vister\Desktop\SPRING\vvv-pet-clinic\pet-clinic-data\src\main\java\pl\vistersky\vvvpetclinic\services\map\PetServiceMap.java
