@@ -1,0 +1,5 @@
+pl\vistersky\vvvpetclinic\controllers\IndexController.class
+pl\vistersky\vvvpetclinic\bootstrap\DataLoader.class
+pl\vistersky\vvvpetclinic\controllers\OwnerController.class
+pl\vistersky\vvvpetclinic\VvvPetClinicApplication.class
+pl\vistersky\vvvpetclinic\controllers\VetController.class
