@@ -1,10 +1,12 @@
 package pl.vistersky.vvvpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import pl.vistersky.vvvpetclinic.model.PetType;
 import pl.vistersky.vvvpetclinic.services.PetTypeService;
 
 import java.util.Set;
 
+@Service
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
     @Override
