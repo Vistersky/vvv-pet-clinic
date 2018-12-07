@@ -1,11 +1,20 @@
 package pl.vistersky.vvvpetclinic.model;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "visits")
 public class Visit extends BaseEntity {
 
+    @Column(name = "date")
     private LocalDate date;
+
+    @Column(name = "desc")
     private String desc;
+
+    @ManyToMany
+    @JoinColumn(name = "pet_id")
     private Pet pet;
 
     public LocalDate getDate() {
