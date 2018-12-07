@@ -1,5 +1,6 @@
 package pl.vistersky.vvvpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import pl.vistersky.vvvpetclinic.model.Owner;
 import pl.vistersky.vvvpetclinic.model.Pet;
@@ -10,6 +11,7 @@ import pl.vistersky.vvvpetclinic.services.PetTypeService;
 import java.util.Set;
 
 @Service
+@Profile({"default","map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
