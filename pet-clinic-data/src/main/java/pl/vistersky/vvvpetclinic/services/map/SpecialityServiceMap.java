@@ -2,12 +2,12 @@ package pl.vistersky.vvvpetclinic.services.map;
 
 import org.springframework.stereotype.Service;
 import pl.vistersky.vvvpetclinic.model.Speciality;
-import pl.vistersky.vvvpetclinic.services.SpecialitesService;
+import pl.vistersky.vvvpetclinic.services.SpecialityService;
 
 import java.util.Set;
 
 @Service
-public class SpecialityServiceMap extends AbstractMapService<Speciality,Long> implements SpecialitesService {
+public class SpecialityServiceMap extends AbstractMapService<Speciality,Long> implements SpecialityService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
