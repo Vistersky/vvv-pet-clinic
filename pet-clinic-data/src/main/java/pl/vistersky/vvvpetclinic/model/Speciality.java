@@ -1,6 +1,6 @@
 package pl.vistersky.vvvpetclinic.model;
 
-public class Speciality {
+public class Speciality extends BaseEntity{
 
     private String desc;
 
