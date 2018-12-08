@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pl.vistersky.vvvpetclinic.VvvPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.258 s - in pl.vistersky.vvvpetclinic.VvvPetClinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.936 s - in pl.vistersky.vvvpetclinic.VvvPetClinicApplicationTests

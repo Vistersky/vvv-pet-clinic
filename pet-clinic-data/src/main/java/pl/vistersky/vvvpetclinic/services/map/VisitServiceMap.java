@@ -34,11 +34,11 @@ public class VisitServiceMap extends AbstractMapService<Visit,Long> implements V
 
     @Override
     public void delete(Visit object) {
-        delete(object);
+        super.delete(object);
     }
 
     @Override
     public void deleteById(Long id) {
-        deleteById(id);
+        super.deleteById(id);
     }
 }

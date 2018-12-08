@@ -94,6 +94,8 @@ public class DataLoader implements CommandLineRunner {
         catVisit.setDate(LocalDate.now());
         catVisit.setDesc("Blooding paw ");
 
+        visitService.save(catVisit);
+
         System.out.println("Loaded Owners....");
         Vet vet1 = new Vet();
         vet1.setFirstName("Sam");
